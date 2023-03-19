@@ -1,0 +1,2306 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="no-js ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+
+	<meta charset="utf-8">
+
+	<!--[if lt IE 9]>
+		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<title>
+		The Toy Around App | Toy Around
+	</title>
+
+	<script type="text/javascript">
+		document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+	</script>
+
+	
+	<meta name="description" content="Introducing the Toy Around App, an app that allows parents to buy and sell preloved toys. We encourage the swap, sale, or buy of preloved toys so we can be one step closer to a better cleaner environment for generations of children to come.  ‘Toy overwhelm’ is a problem for kids, parents, and the planet. Too many toys ">
+	
+
+	
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+
+	<!-- /snippets/social-meta-tags.liquid -->
+
+
+
+
+<meta property="og:site_name" content="Toy Around">
+<meta property="og:url" content="https://www.toyaround.io/pages/our-app">
+<meta property="og:title" content="The Toy Around App | Toy Around">
+<meta property="og:type" content="website">
+<meta property="og:description" content="Introducing the Toy Around App, an app that allows parents to buy and sell preloved toys. We encourage the swap, sale, or buy of preloved toys so we can be one step closer to a better cleaner environment for generations of children to come.  ‘Toy overwhelm’ is a problem for kids, parents, and the planet. Too many toys ">
+
+
+
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Toy Around App | Toy Around">
+<meta name="twitter:description" content="Introducing the Toy Around App, an app that allows parents to buy and sell preloved toys. We encourage the swap, sale, or buy of preloved toys so we can be one step closer to a better cleaner environment for generations of children to come.  ‘Toy overwhelm’ is a problem for kids, parents, and the planet. Too many toys ">
+
+	<style>
+/*============================================================================
+  Typography
+==============================================================================*/
+
+
+
+
+
+@font-face {
+  font-family: "Harmonia Sans";
+  font-weight: 900;
+  font-style: normal;
+  src: url("https://fonts.shopifycdn.com/harmonia_sans/harmoniasans_n9.4646a262fe85cf96a93b88311b95c5c5f4588d22.woff2?h1=dG95YXJvdW5kLmlv&hmac=182a929eb068ca0143137f851fdae8c6a93d7d8e441a9957f6625517ff72d4fd") format("woff2"),
+       url("https://fonts.shopifycdn.com/harmonia_sans/harmoniasans_n9.dabdbffb658ce2e247bb0a0b879ca4314101c8bc.woff?h1=dG95YXJvdW5kLmlv&hmac=8e436f19cb2ad89247954dcb3a6d5a4b0d97b9f44a180f0711c0ce439306df77") format("woff");
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: normal;
+  src: url("https://fonts.shopifycdn.com/montserrat/montserrat_n4.1d581f6d4bf1a97f4cbc0b88b933bc136d38d178.woff2?h1=dG95YXJvdW5kLmlv&hmac=abfc5568ebf8627e80ff98d268865db29ceddb5089136e85905a4b6104ceba9b") format("woff2"),
+       url("https://fonts.shopifycdn.com/montserrat/montserrat_n4.cfce41a967758ce5a9b7d48daeb5b028fd977a9b.woff?h1=dG95YXJvdW5kLmlv&hmac=4e8a516bc27bd644fa2bbe75d46be6ab0042e70da548dae94fe212bc76d697d4") format("woff");
+}
+
+@font-face {
+  font-family: "Harmonia Sans";
+  font-weight: 900;
+  font-style: normal;
+  src: url("https://fonts.shopifycdn.com/harmonia_sans/harmoniasans_n9.4646a262fe85cf96a93b88311b95c5c5f4588d22.woff2?h1=dG95YXJvdW5kLmlv&hmac=182a929eb068ca0143137f851fdae8c6a93d7d8e441a9957f6625517ff72d4fd") format("woff2"),
+       url("https://fonts.shopifycdn.com/harmonia_sans/harmoniasans_n9.dabdbffb658ce2e247bb0a0b879ca4314101c8bc.woff?h1=dG95YXJvdW5kLmlv&hmac=8e436f19cb2ad89247954dcb3a6d5a4b0d97b9f44a180f0711c0ce439306df77") format("woff");
+}
+
+
+
+
+  @font-face {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: normal;
+  src: url("https://fonts.shopifycdn.com/montserrat/montserrat_n7.c496e9cf2031deec4c4bca338faa81971c8631d4.woff2?h1=dG95YXJvdW5kLmlv&hmac=33aeb5111af8adcb142cc3fd74a5e42392d096d614e60b15eef4bdf7635fdcab") format("woff2"),
+       url("https://fonts.shopifycdn.com/montserrat/montserrat_n7.78b0223375c94b39ce1af7e09a0225f2bb3d05f7.woff?h1=dG95YXJvdW5kLmlv&hmac=a7f2b7e448cb6263d347988abef9275e5b21b340794d0c820a3340a7314c4651") format("woff");
+}
+
+
+
+
+  @font-face {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: italic;
+  src: url("https://fonts.shopifycdn.com/montserrat/montserrat_i4.ae02483b3d5e8777d0d4a4ccf396482c364d8955.woff2?h1=dG95YXJvdW5kLmlv&hmac=4299847455d48f8033072af2b306688d2a7b3dc8b25371ff5a11526f7acbac6a") format("woff2"),
+       url("https://fonts.shopifycdn.com/montserrat/montserrat_i4.ba28d1a04ec09448de486d83c63235903dfc0af8.woff?h1=dG95YXJvdW5kLmlv&hmac=1b4077d11e6b4b35153ef56b157428e63116c4b1a980978604dd9bb0dff4c28a") format("woff");
+}
+
+
+
+
+  @font-face {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: italic;
+  src: url("https://fonts.shopifycdn.com/montserrat/montserrat_i7.83866c3eec90071fa974c17980ffb42977f9e667.woff2?h1=dG95YXJvdW5kLmlv&hmac=bb806d25cd8ef5817cc5ba03a96462a414cee6876d319aab7b58ed99ae673d63") format("woff2"),
+       url("https://fonts.shopifycdn.com/montserrat/montserrat_i7.25524241b12d864609c85325613d60efcf1a87e3.woff?h1=dG95YXJvdW5kLmlv&hmac=51bb5aee27b4f39591d888a9a41fe45340457ed14c3fcdf1145e27b3ea8bf0fc") format("woff");
+}
+
+
+
+/*============================================================================
+  #General Variables
+==============================================================================*/
+
+:root {
+  --page-background: #ffffff;
+
+  --color-primary: #394359;
+  --disabled-color-primary: rgba(57, 67, 89, 0.5);
+  --link-color: #17b2e5;
+  --active-link-color: #1c273e;
+
+  --button-background-color: #d0f841;
+  --button-background-hover-color: #acdb00;
+  --button-background-hover-color-lighten: #c0f400;
+  --button-text-color: #1c273e;
+
+  --sale-color: #ff3370;
+  --sale-text-color: #ffffff;
+  --sale-color-faint: rgba(255, 51, 112, 0.1);
+  --sold-out-color: #000000;
+  --sold-out-text-color: #ffffff;
+
+  --header-background: #ffffff;
+  --header-text: #394359;
+  --header-border-color: rgba(57, 67, 89, 0.1);
+  --header-hover-background-color: rgba(57, 67, 89, 0.1);
+  --header-overlay-text: #ffffff;
+
+  --sticky-header-background: #ffffff;
+  --sticky-header-text: #000000;
+  --sticky-header-border: rgba(0, 0, 0, 0.1);
+
+  --mobile-menu-text: #1c273e;
+  --mobile-menu-background: #d1f841;
+  --mobile-menu-border-color: rgba(28, 39, 62, 0.5);
+
+  --footer-background: #1c273e;
+  --footer-text: #ffffff;
+  --footer-hover-background-color: rgba(255, 255, 255, 0.1);
+
+
+  --pop-up-text: #333333;
+  --pop-up-background: #fff;
+
+  --secondary-color: rgba(0, 0, 0, 1) !default;
+  --select-padding: 5px;
+  --select-radius: 2px !default;
+
+  --border-color: rgba(57, 67, 89, 0.5);
+  --border-search: rgba(57, 67, 89, 0.1);
+  --border-color-subtle: rgba(57, 67, 89, 0.1);
+  --border-color-subtle-darken: #2f3749;
+
+  --color-scheme-light-background: #17b2e5;
+  --color-scheme-light-text: #ffffff;
+  --color-scheme-light-text-lighten: #ffffff;
+  --color-scheme-light-input-hover: rgba(255, 255, 255, 0.1);
+
+  --color-scheme-accent-background: #d1f841;
+  --color-scheme-accent-text: #1c273e;
+  --color-scheme-accent-text-lighten: #243250;
+  --color-scheme-accent-input-hover: rgba(28, 39, 62, 0.1);
+
+  --color-scheme-dark-background: #ff3370;
+  --color-scheme-dark-text: #ffffff;
+  --color-scheme-dark-text-darken: #f2f2f2;
+  --color-scheme-dark-input-hover: rgba(255, 255, 255, 0.1);
+
+  --header-font-stack: "Harmonia Sans", sans-serif;
+  --header-font-weight: 900;
+  --header-font-style: normal;
+  --header-font-transform: uppercase;
+
+  
+  --header-letter-spacing: 2px;
+  
+
+  --body-font-stack: Montserrat, sans-serif;
+  --body-font-weight: 400;
+  --body-font-style: normal;
+  --body-font-size-int: 16;
+  --body-font-size: 16px;
+
+  --subheading-font-stack: "Harmonia Sans", sans-serif;
+  --subheading-font-weight: 900;
+  --subheading-font-style: normal;
+  --subheading-font-transform: uppercase;
+  --subheading-case: uppercase;
+
+  
+  --heading-base: 34;
+  --subheading-base: 14;
+  --subheading-2-font-size: 16px;
+  --subheading-2-line-height: 20px;
+  --product-titles: 24;
+  --subpage-header: 24;
+  --subpage-header-px: 24px;
+  --subpage-header-line-height: 34px;
+  --heading-font-size: 34px;
+  --heading-line-height: 44px;
+  --subheading-font-size: 14px;
+  --subheading-line-height: 18px;
+  
+
+  --color-image-overlay: #1c273e;
+  --color-image-overlay-text: #fff;
+  --image-overlay-opacity: calc(35 / 100);
+
+  --flexslider-icon-eot: //cdn.shopify.com/s/files/1/0469/9589/8529/t/16/assets/flexslider-icon.eot?v=70838442330258149421602810305;
+  --flexslider-icon-eot-ie: //cdn.shopify.com/s/files/1/0469/9589/8529/t/16/assets/flexslider-icon.eot%23iefix?309;
+  --flexslider-icon-woff: //cdn.shopify.com/s/files/1/0469/9589/8529/t/16/assets/flexslider-icon.eot?v=70838442330258149421602810305;
+  --flexslider-icon-ttf: //cdn.shopify.com/s/files/1/0469/9589/8529/t/16/assets/flexslider-icon.eot?v=70838442330258149421602810305;
+  --flexslider-icon-svg: //cdn.shopify.com/s/files/1/0469/9589/8529/t/16/assets/flexslider-icon.eot?v=70838442330258149421602810305;
+
+  --delete-button-png: //cdn.shopify.com/s/files/1/0469/9589/8529/t/16/assets/delete.png?309;
+  --loader-svg: //cdn.shopify.com/s/files/1/0469/9589/8529/t/16/assets/loader.svg?v=119822953187440061741602810306;
+
+  
+  --mobile-menu-link-transform: uppercase;
+  --mobile-menu-link-letter-spacing: 2px;
+  
+
+  
+  --buttons-transform: uppercase;
+  --buttons-letter-spacing: 2px;
+  
+
+  
+    --button-font-family: var(--subheading-font-stack);
+    --button-font-weight: var(--subheading-font-weight);
+    --button-font-style: var(--subheading-font-style);
+    --button-font-size: var(--subheading-font-size);
+  
+
+  
+    --button-font-size-int: var(--body-font-size-int);
+  
+
+  
+    --subheading-letter-spacing: 1px;
+  
+
+  
+    --nav-font-family: var(--body-font-stack);
+    --nav-font-weight: var(--body-font-weight);
+    --nav-font-style: var(--body-font-style);
+  
+
+  
+    --nav-text-transform: uppercase;
+    --nav-letter-spacing: 2px;
+  
+
+  
+    --nav-font-size-int: calc(var(--body-font-size-int) - 2);
+  
+
+  --password-text-color: #000000;
+  --password-error-background: #feebeb;
+  --password-error-text: #7e1412;
+  --password-login-background: #111111;
+  --password-login-text: #b8b8b8;
+  --password-btn-text: #ffffff;
+  --password-btn-background: #000000;
+  --password-btn-background-success: #4caf50;
+}
+</style>
+
+
+	<link rel="canonical" href="https://www.toyaround.io/pages/our-app" />
+
+	<!-- CSS -->
+	<link href="//cdn.shopify.com/s/files/1/0469/9589/8529/t/16/assets/theme.min.css?v=175068346460861610651602810311" rel="stylesheet" type="text/css" media="all" />
+	<link href="//cdn.shopify.com/s/files/1/0469/9589/8529/t/16/assets/custom.css?v=60929843993882887651602810302" rel="stylesheet" type="text/css" media="all" />
+
+	
+
+
+
+	
+		<link rel="shortcut icon" href="//cdn.shopify.com/s/files/1/0469/9589/8529/files/Toy-Around-Favicon-Icon_32x32.png?v=1614380122" type="image/png">
+	
+
+	<link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+
+	<script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');</script><meta name="google-site-verification" content="s8vClEWrT9f1vMHqPMS7Jw67ILeSmPkeirj8aZK2k1Y">
+<meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/46995898529/digital_wallets/dialog">
+<meta name="shopify-checkout-api-token" content="f887cf369a6333f1f350c4328a184abd">
+<script id="apple-pay-shop-capabilities" type="application/json">{"shopId":46995898529,"countryCode":"SG","currencyCode":"SGD","merchantCapabilities":["supports3DS"],"merchantId":"gid:\/\/shopify\/Shop\/46995898529","merchantName":"Toy Around","requiredBillingContactFields":["postalAddress","email"],"requiredShippingContactFields":["postalAddress","email"],"shippingType":"shipping","supportedNetworks":["visa","masterCard","amex"],"total":{"type":"pending","label":"Toy Around","amount":"1.00"},"shopifyPaymentsEnabled":true,"supportsSubscriptions":false}</script>
+<script id="shopify-features" type="application/json">{"accessToken":"f887cf369a6333f1f350c4328a184abd","betas":["rich-media-storefront-analytics"],"domain":"www.toyaround.io","predictiveSearch":true,"shopId":46995898529,"smart_payment_buttons_url":"https:\/\/cdn.shopify.com\/shopifycloud\/payment-sheet\/assets\/latest\/spb.en.js?v=2","dynamic_checkout_cart_url":"https:\/\/cdn.shopify.com\/shopifycloud\/payment-sheet\/assets\/latest\/dynamic-checkout-cart.en.js?v=2","locale":"en","optimusEnabled":false}</script>
+<script>var Shopify = Shopify || {};
+Shopify.shop = "toyaround.myshopify.com";
+Shopify.locale = "en";
+Shopify.currency = {"active":"SGD","rate":"1.0"};
+Shopify.country = "SG";
+Shopify.theme = {"name":"Toy Around ","id":114157027489,"theme_store_id":411,"role":"main"};
+Shopify.theme.handle = "null";
+Shopify.theme.style = {"id":null,"handle":null};
+Shopify.cdnHost = "cdn.shopify.com";
+Shopify.routes = Shopify.routes || {};
+Shopify.routes.root = "/";</script>
+<script type="module">!function(o){(o.Shopify=o.Shopify||{}).modules=!0}(window);</script>
+<script>!function(o){function n(){var o=[];function n(){o.push(Array.prototype.slice.apply(arguments))}return n.q=o,n}var t=o.Shopify=o.Shopify||{};t.loadFeatures=n(),t.autoloadFeatures=n()}(window);</script>
+<script>window.ShopifyPay = window.ShopifyPay || {};
+window.ShopifyPay.apiHost = "shop.app\/pay";</script>
+<script>(function() {
+  function asyncLoad() {
+    var urls = ["https:\/\/cdn.tabarn.app\/cdn\/ultimate-upsells\/selectorTool.min.js?shop=toyaround.myshopify.com","https:\/\/static.klaviyo.com\/onsite\/js\/klaviyo.js?company_id=WWLHxv\u0026shop=toyaround.myshopify.com","https:\/\/static.klaviyo.com\/onsite\/js\/klaviyo.js?company_id=WWLHxv\u0026shop=toyaround.myshopify.com","https:\/\/static.klaviyo.com\/onsite\/js\/klaviyo.js?company_id=WWLHxv\u0026shop=toyaround.myshopify.com","https:\/\/chimpstatic.com\/mcjs-connected\/js\/users\/d5ea0b651acccdbdb5f3b7608\/b0664ab37e70996e4b2ee414f.js?shop=toyaround.myshopify.com","https:\/\/ufe.helixo.co\/scripts\/sdk.min.js?shop=toyaround.myshopify.com","https:\/\/static.cdn.printful.com\/static\/js\/external\/shopify-product-customizer.js?v=0.26\u0026shop=toyaround.myshopify.com"];
+    for (var i = 0; i < urls.length; i++) {
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = urls[i];
+      var x = document.getElementsByTagName('script')[0];
+      x.parentNode.insertBefore(s, x);
+    }
+  };
+  if(window.attachEvent) {
+    window.attachEvent('onload', asyncLoad);
+  } else {
+    window.addEventListener('load', asyncLoad, false);
+  }
+})();</script>
+<script id="__st">var __st={"a":46995898529,"offset":28800,"reqid":"5aa8150e-85c9-4f27-b5a2-74e17b2198ea","pageurl":"www.toyaround.io\/pages\/our-app","s":"pages-70485967009","u":"8e8e5e9d99fb","p":"page","rtyp":"page","rid":70485967009};</script>
+<script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
+<script>!function(o){o.addEventListener("DOMContentLoaded",function(){window.Shopify=window.Shopify||{},window.Shopify.recaptchaV3=window.Shopify.recaptchaV3||{siteKey:"6LcCR2cUAAAAANS1Gpq_mDIJ2pQuJphsSQaUEuc9"};var t=['form[action*="/contact"] input[name="form_type"][value="contact"]','form[action*="/comments"] input[name="form_type"][value="new_comment"]','form[action*="/account"] input[name="form_type"][value="customer_login"]','form[action*="/account"] input[name="form_type"][value="recover_customer_password"]','form[action*="/account"] input[name="form_type"][value="create_customer"]','form[action*="/contact"] input[name="form_type"][value="customer"]'].join(",");function n(e){e=e.target;null==e||null!=(e=function e(t,n){if(null==t.parentElement)return null;if("FORM"!=t.parentElement.tagName)return e(t.parentElement,n);for(var o=t.parentElement.action,r=0;r<n.length;r++)if(-1!==o.indexOf(n[r]))return t.parentElement;return null}(e,["/contact","/comments","/account"]))&&null!=e.querySelector(t)&&((e=o.createElement("script")).setAttribute("src","https://cdn.shopify.com/shopifycloud/storefront-recaptcha-v3/v0.6/index.js"),o.body.appendChild(e),o.removeEventListener("focus",n,!0),o.removeEventListener("change",n,!0),o.removeEventListener("click",n,!0))}o.addEventListener("click",n,!0),o.addEventListener("change",n,!0),o.addEventListener("focus",n,!0)})}(document);</script>
+<script integrity="sha256-4VRZk5nmuLKdyxECzHbrGZ+jOgmvT6eNFej4VE7mT80=" data-source-attribution="shopify.loadfeatures" defer="defer" src="//cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-e154599399e6b8b29dcb1102cc76eb199fa33a09af4fa78d15e8f8544ee64fcd.js" crossorigin="anonymous"></script>
+<script crossorigin="anonymous" defer="defer" src="//cdn.shopify.com/shopifycloud/shopify/assets/shopify_pay/storefront-c31d2fa4962d2ef90b673e945ee33f4f87302b97d0882cd8e83a629b84b30dab.js?v=20220906"></script>
+<script integrity="sha256-h+g5mYiIAULyxidxudjy/2wpCz/3Rd1CbrDf4NudHa4=" data-source-attribution="shopify.dynamic-checkout" defer="defer" src="//cdn.shopify.com/shopifycloud/shopify/assets/storefront/features-87e8399988880142f2c62771b9d8f2ff6c290b3ff745dd426eb0dfe0db9d1dae.js" crossorigin="anonymous"></script>
+
+
+<style id="shopify-dynamic-checkout-cart">@media screen and (min-width: 750px) {
+  #dynamic-checkout-cart {
+    min-height: 50px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #dynamic-checkout-cart {
+    min-height: 120px;
+  }
+}
+</style><script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');</script>
+
+	<script type="text/javascript">
+	window.lazySizesConfig = window.lazySizesConfig || {};
+	window.lazySizesConfig.rias = window.lazySizesConfig.rias || {};
+
+	// configure available widths to replace with the {width} placeholder
+	window.lazySizesConfig.rias.widths = [150, 300, 600, 900, 1200, 1500, 1800, 2100];
+
+	window.wetheme = {
+		name: 'Envy',
+	};
+	</script>
+
+	
+
+	<script type="module" src="//cdn.shopify.com/s/files/1/0469/9589/8529/t/16/assets/theme.min.js?v=8599793025724479281602810311"></script>
+	<script nomodule src="//cdn.shopify.com/s/files/1/0469/9589/8529/t/16/assets/theme.legacy.min.js?v=111488589854031950461602810310"></script>
+
+    <script>
+    
+      
+    window.ufeStore = {
+      collections: [],
+      tags: ''.split(','),
+      selectedVariantId: null,
+      moneyFormat: "${{amount}}",
+      moneyFormatWithCurrency: "${{amount}} SGD",
+      currency: "SGD",
+      customerId: null,
+      productAvailable: null,
+      productMapping: []
+    }
+    
+    
+      window.ufeStore.cartTotal = 0;
+      
+    
+    
+    
+    window.isUfeInstalled = true;
+    function ufeScriptLoader(scriptUrl) {
+        var element = document.createElement('script');
+        element.src = scriptUrl;
+        element.type = 'text/javascript';
+        document.getElementsByTagName('head')[0].appendChild(element);
+    }
+    if(window.isUfeInstalled) console.log('%c UFE: Funnel Engines ⚡️ Full Throttle  🦾😎!', 'font-weight: bold; letter-spacing: 2px; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", Arial, sans-serif;font-size: 20px;color: rgb(25, 124, 255); text-shadow: 2px 2px 0 rgb(62, 246, 255)');
+    if(!('noModule' in HTMLScriptElement.prototype) && window.isUfeInstalled) {
+        ufeScriptLoader('https://ufe.helixo.co/scripts/sdk.es5.min.js');
+        console.log('UFE: ES5 Script Loading');
+    }
+    </script>
+    
+    <script async src="https://ufe.helixo.co/scripts/sdk.min.js?shop=toyaround.myshopify.com"></script>
+    <meta property="og:image" content="https://cdn.shopify.com/s/files/1/0469/9589/8529/files/96dcc4_9efb29cd3b2b4ea498839ceac79595d3mv2.png?height=628&pad_color=fff&v=1614348857&width=1200" />
+<meta property="og:image:secure_url" content="https://cdn.shopify.com/s/files/1/0469/9589/8529/files/96dcc4_9efb29cd3b2b4ea498839ceac79595d3mv2.png?height=628&pad_color=fff&v=1614348857&width=1200" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="628" />
+<link href="https://monorail-edge.shopifysvc.com" rel="dns-prefetch">
+<script>(function(){if ("sendBeacon" in navigator && "performance" in window) {var session_token = document.cookie.match(/_shopify_s=([^;]*)/);function handle_abandonment_event(e) {var entries = performance.getEntries().filter(function(entry) {return /monorail-edge.shopifysvc.com/.test(entry.name);});if (!window.abandonment_tracked && entries.length === 0) {window.abandonment_tracked = true;var currentMs = Date.now();var navigation_start = performance.timing.navigationStart;var payload = {shop_id: 46995898529,url: window.location.href,navigation_start,duration: currentMs - navigation_start,session_token: session_token && session_token.length === 2 ? session_token[1] : "",page_type: "page"};window.navigator.sendBeacon("https://monorail-edge.shopifysvc.com/v1/produce", JSON.stringify({schema_id: "online_store_buyer_site_abandonment/1.1",payload: payload,metadata: {event_created_at_ms: currentMs,event_sent_at_ms: currentMs}}));}}window.addEventListener('pagehide', handle_abandonment_event);}}());</script>
+<script>window.ShopifyAnalytics = window.ShopifyAnalytics || {};
+window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
+window.ShopifyAnalytics.meta.currency = 'SGD';
+var meta = {"page":{"pageType":"page","resourceType":"page","resourceId":70485967009}};
+for (var attr in meta) {
+  window.ShopifyAnalytics.meta[attr] = meta[attr];
+}</script>
+<script>window.ShopifyAnalytics.merchantGoogleAnalytics = function() {
+  
+};
+</script>
+<script class="analytics">(window.gaDevIds=window.gaDevIds||[]).push('BwiEti');
+
+
+(function () {
+  var customDocumentWrite = function(content) {
+    var jquery = null;
+
+    if (window.jQuery) {
+      jquery = window.jQuery;
+    } else if (window.Checkout && window.Checkout.$) {
+      jquery = window.Checkout.$;
+    }
+
+    if (jquery) {
+      jquery('body').append(content);
+    }
+  };
+
+  var hasLoggedConversion = function(token) {
+    if (token) {
+      return document.cookie.indexOf('loggedConversion=' + token) !== -1;
+    }
+    return false;
+  }
+
+  var setCookieIfConversion = function(token) {
+    if (token) {
+      var twoMonthsFromNow = new Date(Date.now());
+      twoMonthsFromNow.setMonth(twoMonthsFromNow.getMonth() + 2);
+
+      document.cookie = 'loggedConversion=' + token + '; expires=' + twoMonthsFromNow;
+    }
+  }
+
+  var trekkie = window.ShopifyAnalytics.lib = window.trekkie = window.trekkie || [];
+  if (trekkie.integrations) {
+    return;
+  }
+  trekkie.methods = [
+    'identify',
+    'page',
+    'ready',
+    'track',
+    'trackForm',
+    'trackLink'
+  ];
+  trekkie.factory = function(method) {
+    return function() {
+      var args = Array.prototype.slice.call(arguments);
+      args.unshift(method);
+      trekkie.push(args);
+      return trekkie;
+    };
+  };
+  for (var i = 0; i < trekkie.methods.length; i++) {
+    var key = trekkie.methods[i];
+    trekkie[key] = trekkie.factory(key);
+  }
+  trekkie.load = function(config) {
+    trekkie.config = config || {};
+    trekkie.config.initialDocumentCookie = document.cookie;
+    var first = document.getElementsByTagName('script')[0];
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.onerror = function(e) {
+      var scriptFallback = document.createElement('script');
+      scriptFallback.type = 'text/javascript';
+      scriptFallback.onerror = function(error) {
+              var Monorail = {
+      produce: function produce(monorailDomain, schemaId, payload) {
+        var currentMs = new Date().getTime();
+        var event = {
+          schema_id: schemaId,
+          payload: payload,
+          metadata: {
+            event_created_at_ms: currentMs,
+            event_sent_at_ms: currentMs
+          }
+        };
+        return Monorail.sendRequest("https://" + monorailDomain + "/v1/produce", JSON.stringify(event));
+      },
+      sendRequest: function sendRequest(endpointUrl, payload) {
+        // Try the sendBeacon API
+        if (window && window.navigator && typeof window.navigator.sendBeacon === 'function' && typeof window.Blob === 'function' && !Monorail.isIos12()) {
+          var blobData = new window.Blob([payload], {
+            type: 'text/plain'
+          });
+    
+          if (window.navigator.sendBeacon(endpointUrl, blobData)) {
+            return true;
+          } // sendBeacon was not successful
+    
+        } // XHR beacon   
+    
+        var xhr = new XMLHttpRequest();
+    
+        try {
+          xhr.open('POST', endpointUrl);
+          xhr.setRequestHeader('Content-Type', 'text/plain');
+          xhr.send(payload);
+        } catch (e) {
+          console.log(e);
+        }
+    
+        return false;
+      },
+      isIos12: function isIos12() {
+        return window.navigator.userAgent.lastIndexOf('iPhone; CPU iPhone OS 12_') !== -1 || window.navigator.userAgent.lastIndexOf('iPad; CPU OS 12_') !== -1;
+      }
+    };
+    Monorail.produce('monorail-edge.shopifysvc.com',
+      'trekkie_storefront_load_errors/1.1',
+      {shop_id: 46995898529,
+      theme_id: 114157027489,
+      app_name: "storefront",
+      context_url: window.location.href,
+      source_url: "https://cdn.shopify.com/s/trekkie.storefront.ab3032c28027516fdaebe33d84256417cef9e6d8.min.js"});
+
+      };
+      scriptFallback.async = true;
+      scriptFallback.src = 'https://cdn.shopify.com/s/trekkie.storefront.ab3032c28027516fdaebe33d84256417cef9e6d8.min.js';
+      first.parentNode.insertBefore(scriptFallback, first);
+    };
+    script.async = true;
+    script.src = 'https://cdn.shopify.com/s/trekkie.storefront.ab3032c28027516fdaebe33d84256417cef9e6d8.min.js';
+    first.parentNode.insertBefore(script, first);
+  };
+  trekkie.load(
+    {"Trekkie":{"appName":"storefront","development":false,"defaultAttributes":{"shopId":46995898529,"isMerchantRequest":null,"themeId":114157027489,"themeCityHash":"3645002531896655027","contentLanguage":"en","currency":"SGD"},"isServerSideCookieWritingEnabled":true,"monorailRegion":"shop_domain"},"Google Analytics":{"trackingId":"UA-124648609-2","domain":"auto","siteSpeedSampleRate":"10","enhancedEcommerce":true,"doubleClick":true,"includeSearch":true},"Facebook Pixel":{"pixelIds":["1196079410789385"],"agent":"plshopify1.2"},"Session Attribution":{},"S2S":{"facebookCapiEnabled":true,"facebookAppPixelId":"1196079410789385","source":"trekkie-storefront-renderer"}}
+  );
+
+  var loaded = false;
+  trekkie.ready(function() {
+    if (loaded) return;
+    loaded = true;
+
+    window.ShopifyAnalytics.lib = window.trekkie;
+    
+      ga('require', 'linker');
+      function addListener(element, type, callback) {
+        if (element.addEventListener) {
+          element.addEventListener(type, callback);
+        }
+        else if (element.attachEvent) {
+          element.attachEvent('on' + type, callback);
+        }
+      }
+      function decorate(event) {
+        event = event || window.event;
+        var target = event.target || event.srcElement;
+        if (target && (target.getAttribute('action') || target.getAttribute('href'))) {
+          ga(function (tracker) {
+            var linkerParam = tracker.get('linkerParam');
+            document.cookie = '_shopify_ga=' + linkerParam + '; ' + 'path=/';
+          });
+        }
+      }
+      addListener(window, 'load', function(){
+        for (var i=0; i < document.forms.length; i++) {
+          var action = document.forms[i].getAttribute('action');
+          if(action && action.indexOf('/cart') >= 0) {
+            addListener(document.forms[i], 'submit', decorate);
+          }
+        }
+        for (var i=0; i < document.links.length; i++) {
+          var href = document.links[i].getAttribute('href');
+          if(href && href.indexOf('/checkout') >= 0) {
+            addListener(document.links[i], 'click', decorate);
+          }
+        }
+      });
+    
+
+    var originalDocumentWrite = document.write;
+    document.write = customDocumentWrite;
+    try { window.ShopifyAnalytics.merchantGoogleAnalytics.call(this); } catch(error) {};
+    document.write = originalDocumentWrite;
+
+    window.ShopifyAnalytics.lib.page(null,{"pageType":"page","resourceType":"page","resourceId":70485967009});
+
+    var match = window.location.pathname.match(/checkouts\/(.+)\/(thank_you|post_purchase)/)
+    var token = match? match[1]: undefined;
+    if (!hasLoggedConversion(token)) {
+      setCookieIfConversion(token);
+      
+    }
+  });
+
+  
+      var eventsListenerScript = document.createElement('script');
+      eventsListenerScript.async = true;
+      eventsListenerScript.src = "//cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-65cd0ba3fcd81a1df33f2510ec5bcf8c0e0958653b50e3965ec972dd638ee13f.js";
+      document.getElementsByTagName('head')[0].appendChild(eventsListenerScript);
+    
+})();</script>
+<script class="boomerang">
+(function () {
+  if (window.BOOMR && (window.BOOMR.version || window.BOOMR.snippetExecuted)) {
+    return;
+  }
+  window.BOOMR = window.BOOMR || {};
+  window.BOOMR.snippetStart = new Date().getTime();
+  window.BOOMR.snippetExecuted = true;
+  window.BOOMR.snippetVersion = 12;
+  window.BOOMR.application = "storefront-renderer";
+  window.BOOMR.themeName = "Envy";
+  window.BOOMR.themeVersion = "26.4.0";
+  window.BOOMR.shopId = 46995898529;
+  window.BOOMR.themeId = 114157027489;
+  window.BOOMR.renderRegion = "gcp-europe-west1";
+  window.BOOMR.url =
+    "https://cdn.shopify.com/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js";
+  var where = document.currentScript || document.getElementsByTagName("script")[0];
+  var parentNode = where.parentNode;
+  var promoted = false;
+  var LOADER_TIMEOUT = 3000;
+  function promote() {
+    if (promoted) {
+      return;
+    }
+    var script = document.createElement("script");
+    script.id = "boomr-scr-as";
+    script.src = window.BOOMR.url;
+    script.async = true;
+    parentNode.appendChild(script);
+    promoted = true;
+  }
+  function iframeLoader(wasFallback) {
+    promoted = true;
+    var dom, bootstrap, iframe, iframeStyle;
+    var doc = document;
+    var win = window;
+    window.BOOMR.snippetMethod = wasFallback ? "if" : "i";
+    bootstrap = function(parent, scriptId) {
+      var script = doc.createElement("script");
+      script.id = scriptId || "boomr-if-as";
+      script.src = window.BOOMR.url;
+      BOOMR_lstart = new Date().getTime();
+      parent = parent || doc.body;
+      parent.appendChild(script);
+    };
+    if (!window.addEventListener && window.attachEvent && navigator.userAgent.match(/MSIE [67]./)) {
+      window.BOOMR.snippetMethod = "s";
+      bootstrap(parentNode, "boomr-async");
+      return;
+    }
+    iframe = document.createElement("IFRAME");
+    iframe.src = "about:blank";
+    iframe.title = "";
+    iframe.role = "presentation";
+    iframe.loading = "eager";
+    iframeStyle = (iframe.frameElement || iframe).style;
+    iframeStyle.width = 0;
+    iframeStyle.height = 0;
+    iframeStyle.border = 0;
+    iframeStyle.display = "none";
+    parentNode.appendChild(iframe);
+    try {
+      win = iframe.contentWindow;
+      doc = win.document.open();
+    } catch (e) {
+      dom = document.domain;
+      iframe.src = "javascript:var d=document.open();d.domain='" + dom + "';void(0);";
+      win = iframe.contentWindow;
+      doc = win.document.open();
+    }
+    if (dom) {
+      doc._boomrl = function() {
+        this.domain = dom;
+        bootstrap();
+      };
+      doc.write("<body onload='document._boomrl();'>");
+    } else {
+      win._boomrl = function() {
+        bootstrap();
+      };
+      if (win.addEventListener) {
+        win.addEventListener("load", win._boomrl, false);
+      } else if (win.attachEvent) {
+        win.attachEvent("onload", win._boomrl);
+      }
+    }
+    doc.close();
+  }
+  var link = document.createElement("link");
+  if (link.relList &&
+    typeof link.relList.supports === "function" &&
+    link.relList.supports("preload") &&
+    ("as" in link)) {
+    window.BOOMR.snippetMethod = "p";
+    link.href = window.BOOMR.url;
+    link.rel = "preload";
+    link.as = "script";
+    link.addEventListener("load", promote);
+    link.addEventListener("error", function() {
+      iframeLoader(true);
+    });
+    setTimeout(function() {
+      if (!promoted) {
+        iframeLoader(true);
+      }
+    }, LOADER_TIMEOUT);
+    BOOMR_lstart = new Date().getTime();
+    parentNode.appendChild(link);
+  } else {
+    iframeLoader(false);
+  }
+  function boomerangSaveLoadTime(e) {
+    window.BOOMR_onload = (e && e.timeStamp) || new Date().getTime();
+  }
+  if (window.addEventListener) {
+    window.addEventListener("load", boomerangSaveLoadTime, false);
+  } else if (window.attachEvent) {
+    window.attachEvent("onload", boomerangSaveLoadTime);
+  }
+  if (document.addEventListener) {
+    document.addEventListener("onBoomerangLoaded", function(e) {
+      e.detail.BOOMR.init({
+        ResourceTiming: {
+          enabled: true,
+          trackedResourceTypes: ["script", "img", "css"]
+        },
+      });
+      e.detail.BOOMR.t_end = new Date().getTime();
+    });
+  } else if (document.attachEvent) {
+    document.attachEvent("onpropertychange", function(e) {
+      if (!e) e=event;
+      if (e.propertyName === "onBoomerangLoaded") {
+        e.detail.BOOMR.init({
+          ResourceTiming: {
+            enabled: true,
+            trackedResourceTypes: ["script", "img", "css"]
+          },
+        });
+        e.detail.BOOMR.t_end = new Date().getTime();
+      }
+    });
+  }
+})();</script>
+<script id="web-pixels-manager-setup">(function e(e,n,a,o,t){e&&(window.Shopify=window.Shopify||{},window.Shopify.analytics=window.Shopify.analytics||{},window.Shopify.analytics.replayQueue=[],window.Shopify.analytics.publish=function(e,n,a){window.Shopify.analytics.replayQueue.push([e,n,a])});var r,i,s,l,d,c,p,u,f=a+"/"+o+"."+function(){var e="legacy",n="unknown",a=null,o=navigator.userAgent.match(/(Firefox|Chrome)\/(\d+)/i),t=navigator.userAgent.match(/(Edg)\/(\d+)/i),r=navigator.userAgent.match(/(Version)\/(\d+)(.+)(Safari)\/(\d+)/i);r?(n="safari",a=parseInt(r[2],10)):t?(n="edge",a=parseInt(t[2],10)):o&&(n=o[1].toLocaleLowerCase(),a=parseInt(o[2],10));var i={chrome:60,firefox:55,safari:11,edge:80}[n];return void 0!==i&&null!==a&&i<=a&&(e="modern"),e}()+".js";r={src:f,async:!0,onload:function(){if(e){var a=window.webPixelsManager.init(e);n(a),window.Shopify.analytics.replayQueue.forEach((function(e){a.publishCustomEvent(e[0],e[1],e[2])})),window.Shopify.analytics.replayQueue=[],window.Shopify.analytics.publish=a.publishCustomEvent}},onerror:function(){var n=(e.storefrontBaseUrl?e.storefrontBaseUrl.replace(/\/$/,""):self.location.origin)+"/.well-known/shopify/monorail/unstable/produce_batch",a=JSON.stringify({metadata:{event_sent_at_ms:(new Date).getTime()},events:[{schema_id:"web_pixels_manager_load/2.0",payload:{version:t||"latest",page_url:self.location.href,status:"failed",error_msg:f+" has failed to load"},metadata:{event_created_at_ms:(new Date).getTime()}}]});try{if(self.navigator.sendBeacon.bind(self.navigator)(n,a))return!0}catch(e){}const o=new XMLHttpRequest;try{return o.open("POST",n,!0),o.setRequestHeader("Content-Type","text/plain"),o.send(a),!0}catch(e){console&&console.warn&&console.warn("[Web Pixels Manager] Got an unhandled error while logging a load error.")}return!1}},i=document.createElement("script"),s=r.src,l=r.async||!0,d=r.onload,c=r.onerror,p=document.head,u=document.body,i.async=l,i.src=s,d&&i.addEventListener("load",d),c&&i.addEventListener("error",c),p?p.appendChild(i):u?u.appendChild(i):console.error("Did not find a head or body element to append the script")})({shopId: 46995898529,storefrontBaseUrl: "https://www.toyaround.io",cdnBaseUrl: "https://cdn.shopify.com",surface: "storefront-renderer",enabledBetaFlags: ["web_pixels_use_shop_domain_monorail_endpoint"],webPixelExtensionBaseUrl: "https://cdn.shopify.com",webPixelsConfigList: [],initData: {"customer":null,"cart":null,"productVariants":[],"checkout":null},},function pageEvents(webPixelsManagerAPI) {webPixelsManagerAPI.publish("page_viewed");},"https://cdn.shopify.com/shopifycloud/web-pixels-manager/0.0.187","browser","0.0.187");</script></head>
+
+<body id="the-toy-around-app-toy-around" class="page-title--the-toy-around-app-toy-around template-page flexbox-wrapper">
+
+	
+		<form action="/cart" method="post" novalidate="" class="cart-drawer-form">
+	<div id="cartSlideoutWrapper" class="envy-shopping-right slideout-panel-hidden cart-drawer-right">
+
+		<div class="cart-drawer__top">
+			<div class="cart-drawer__empty-div"></div>
+			<h3 class="type-subheading type-subheading--1 wow fadeIn">
+				<span class="cart-drawer--title">Your Cart</span>
+			</h3>
+			<a href="#" class="slide-menu cart-close-icon cart-menu-close"><i data-feather="x"></i></a>
+		</div>
+
+		<div class="cart-error-box"></div>
+
+		<div class="cart-empty-box">
+			Your basket is empty
+		</div>
+
+		<script type="application/template" id="cart-item-template">
+			<div class="cart-item">
+				<div class="cart-item-image--wrapper">
+					<a class="cart-item-link" href="/product">
+						<img
+							class="cart-item-image"
+							src="/product/image.jpg"
+							alt=""
+						/>
+					</a>
+				</div>
+				<div class="cart-item-details--wrapper">
+					<a href="/product" class="cart-item-link cart-item-details--product-title-wrapper">
+						<span class="cart-item-product-title"></span>
+						<span class="cart-item-variant-title hide"></span>
+					</a>
+
+						<div class="cart-item-price-wrapper">
+							<span class="sr-only">Now</span>
+							<span class="cart-item-price"></span>
+							<span class="sr-only">Was</span>
+							<span class="cart-item-price-original"></span>
+							<span class="cart-item-price-per-unit"></span>
+						</div>
+
+						<ul class="order-discount--cart-list" aria-label="Discount"></ul>
+
+						<div class="cart-item--quantity-remove-wrapper">
+							<div class="cart-item--quantity-wrapper">
+								<button type="button" class="cart-item-quantity-button cart-item-decrease" data-amount="-1" aria-label="Reduce item quantity by one">-</button>
+								<input type="text" class="cart-item-quantity" min="1" pattern="[0-9]*" aria-label="quantity" />
+								<button type="button" class="cart-item-quantity-button cart-item-increase" data-amount="1" aria-label="Increase item quantity by one">+</button>
+							</div>
+
+							<div class="cart-item-remove-button-container">
+								<button type="button" id="cart-item-remove-button">Remove</button>
+							</div>
+					</div>
+
+				</div>
+			</div>
+		</script>
+		<script type="application/json" id="initial-cart">
+			{"note":null,"attributes":{},"original_total_price":0,"total_price":0,"total_discount":0,"total_weight":0.0,"item_count":0,"items":[],"requires_shipping":false,"currency":"SGD","items_subtotal_price":0,"cart_level_discount_applications":[],"checkout_charge_amount":0}
+		</script>
+
+		<div class="cart-items"></div>
+
+		<div class="ajax-cart--bottom-wrapper">
+
+		
+		<div class="ajax-cart--checkout-add-note">
+				<p>Add a note for the seller&hellip;</p>
+				<textarea id="note" name="note" class="form-control"></textarea>
+		</div>
+		
+
+		
+
+		<div class="ajax-cart--cart-discount">
+			<div class="cart--order-discount-wrapper custom-font ajax-cart-discount-wrapper"></div>
+		</div>
+
+		<span class="cart-price-text type-subheading">Subtotal</span>
+
+		<div class="ajax-cart--cart-original-price">
+			<span class="cart-item-original-total-price"><span class="money">$0.00</span></span>
+		</div>
+
+		<div class="ajax-cart--total-price">
+			<h5><span class="cart-total-price" id="cart-price"><span class="money">$0.00</span></span></h5>
+		</div>
+
+		<div class="slide-checkout-buttons">
+			<button type="submit" name="checkout" class="btn cart-button-checkout">
+				<span class="cart-button-checkout-text">Place your order</span>
+				<div class="cart-button-checkout-spinner lds-dual-ring hide"></div>
+			</button>
+			
+				<div class="additional-checkout-buttons">
+					<div class="dynamic-checkout__content" id="dynamic-checkout-cart" data-shopify="dynamic-checkout-cart"></div>
+				</div>
+			
+			
+		</div>
+
+
+		</div>
+
+	</div>
+</form>
+
+	
+
+	<div id="main-body">
+
+		<div id="slideout-overlay"></div>
+
+		<div id="shopify-section-announcement-bar" class="shopify-section">
+
+
+</div>
+		<div id="shopify-section-header" class="shopify-section"><style>
+  .site-header__logo-image img,
+  .overlay-logo-image {
+    max-width: 160px;
+  }
+
+  @media screen and (min-width: 992px) {
+    .site-header__logo-image img,
+    .overlay-logo-image {
+      width: 160px;
+    }
+    .logo-placement-within-wrapper--logo {
+      width: 160px;
+      flex-basis: 160px;
+    }
+  }
+
+  #main-navigation-wrapper.mega-menu-wrapper .mega-menu ul.nav li{
+    padding-top: px;
+    padding-bottom: px;
+  }
+
+  #site-header svg, .sticky-header-wrapper svg {
+    height: 20px;
+  }
+
+  @media screen and (max-width: 768px) {
+    #site-header svg, .sticky-header-wrapper svg {
+        height: 24px;
+    }
+  }
+
+  #search-wrapper {
+    background: var(--header-background)!important;
+  }
+
+  .top-search #search-wrapper {
+    border-bottom: 1px solid var(--header-background)!important;
+  }
+
+  #top-search-wrapper svg {
+    stroke: var(--header-text)!important;
+  }
+
+  .top-search input {
+    color: var(--header-text)!important;
+  }
+
+  #top-search-wrapper #search_text::placeholder {
+    color: var(--header-text);
+  }
+
+  #top-search-wrapper #search_text::-webkit-input-placeholder {
+    color: var(--header-text);
+  }
+
+  #top-search-wrapper #search_text:-ms-input-placeholder {
+    color: var(--header-text);
+  }
+
+  #top-search-wrapper #search_text::-moz-placeholder {
+    color: var(--header-text);
+  }
+
+  #top-search-wrapper #search_text:-moz-placeholder {
+    color: var(--header-text);
+  }
+
+  .top-search  {
+    border-bottom: solid 1px var(--header-border-color)!important;
+  }
+
+  .predictive-search-group {
+    background-color: var(--header-background)!important;
+  }
+
+  .search-results__meta {
+    background: var(--header-background)!important;
+  }
+
+  .search-results__meta .search-results__meta-clear {
+    color: var(--header-text);
+  }
+
+  .search-results__meta-view-all a {
+    color: var(--header-text)!important;
+  }
+
+  .search-results-panel .predictive-search-group h2 {
+    color: var(--header-text);
+    border-bottom: solid 1px var(--header-border-color);
+  }
+
+  .search-results-panel .predictive-search-group .search-vendor,.money {
+    color: var(--header-text);
+  }
+
+  .search--result-group h5 a {
+    color: var(--header-text)!important;
+  }
+
+  .predictive-loading {
+    color: var(--header-text)!important;
+  }
+</style>
+
+
+
+<div class="header-wrapper" data-wetheme-section-type="header" data-wetheme-section-id="header">
+
+
+
+<div class="header-logo-wrapper" data-section-id="header" data-section-type="header-section">
+
+<nav id="theme-menu" class="mobile-menu--wrapper slideout-panel-hidden">
+  
+
+
+<script type="application/json" id="mobile-menu-data">
+{
+    
+        
+        
+        "0": {
+            "level": 0,
+            "url": "/collections/all",
+            "title": "Shop by age",
+            "links": [
+                
+                    "0--0",
+                
+                    "0--1",
+                
+                    "0--2",
+                
+                    "0--3",
+                
+                    "0--4",
+                
+                    "0--5",
+                
+                    "0--6",
+                
+                    "0--7"
+                
+            ]
+        }
+        
+          
+            , "0--0": {
+            "level": 1,
+            "url": "/collections/0-3-months",
+            "title": "0-3 months",
+            "links": [
+                
+            ]
+        }
+        
+        
+          
+            , "0--1": {
+            "level": 1,
+            "url": "/collections/3-6-months",
+            "title": "3-6 months",
+            "links": [
+                
+            ]
+        }
+        
+        
+          
+            , "0--2": {
+            "level": 1,
+            "url": "/collections/6-9-months",
+            "title": "6-9 months",
+            "links": [
+                
+            ]
+        }
+        
+        
+          
+            , "0--3": {
+            "level": 1,
+            "url": "/collections/9-12-months",
+            "title": "9-12 months",
+            "links": [
+                
+            ]
+        }
+        
+        
+          
+            , "0--4": {
+            "level": 1,
+            "url": "/collections/12-18-months",
+            "title": "12-18 months",
+            "links": [
+                
+            ]
+        }
+        
+        
+          
+            , "0--5": {
+            "level": 1,
+            "url": "/collections/18-24-months-1",
+            "title": "18-24 months",
+            "links": [
+                
+            ]
+        }
+        
+        
+          
+            , "0--6": {
+            "level": 1,
+            "url": "/collections/2-3-years-old",
+            "title": "2-3 years ",
+            "links": [
+                
+            ]
+        }
+        
+        
+          
+            , "0--7": {
+            "level": 1,
+            "url": "/collections/3-4-years",
+            "title": "3-4 years",
+            "links": [
+                
+            ]
+        }
+        
+        
+    
+        
+        ,
+        "1": {
+            "level": 0,
+            "url": "/collections/all",
+            "title": "Shop by Milestone",
+            "links": [
+                
+                    "1--0",
+                
+                    "1--1",
+                
+                    "1--2",
+                
+                    "1--3",
+                
+                    "1--4"
+                
+            ]
+        }
+        
+          
+            , "1--0": {
+            "level": 1,
+            "url": "/collections/fine-motor-skills",
+            "title": "Fine Motor Skills",
+            "links": [
+                
+            ]
+        }
+        
+        
+          
+            , "1--1": {
+            "level": 1,
+            "url": "/collections/gross-motor-skills",
+            "title": "Gross Motor Skills",
+            "links": [
+                
+            ]
+        }
+        
+        
+          
+            , "1--2": {
+            "level": 1,
+            "url": "/collections/cognitive",
+            "title": "Cognitive Skills",
+            "links": [
+                
+            ]
+        }
+        
+        
+          
+            , "1--3": {
+            "level": 1,
+            "url": "/collections/language-speech",
+            "title": "Language\/ Speech",
+            "links": [
+                
+            ]
+        }
+        
+        
+          
+            , "1--4": {
+            "level": 1,
+            "url": "/collections/social-emotional",
+            "title": "Social \/ Emotional",
+            "links": [
+                
+            ]
+        }
+        
+        
+    
+        
+        ,
+        "2": {
+            "level": 0,
+            "url": "/pages/our-app",
+            "title": "Used Toys",
+            "links": [
+                
+            ]
+        }
+        
+    
+        
+        ,
+        "3": {
+            "level": 0,
+            "url": "/pages/our-story",
+            "title": "Our Story",
+            "links": [
+                
+            ]
+        }
+        
+    
+        
+        ,
+        "4": {
+            "level": 0,
+            "url": "/pages/space-puppies",
+            "title": "Space Puppies",
+            "links": [
+                
+                    "4--0"
+                
+            ]
+        }
+        
+          
+            , "4--0": {
+            "level": 1,
+            "url": "/collections/space-puppies",
+            "title": "Card Game",
+            "links": [
+                
+            ]
+        }
+        
+        
+    
+}
+</script>
+<div class="mobile-menu-close"><a href="#" class="slide-menu menu-close-icon mobile-menu-close"><i data-feather="x" aria-hidden="true"></i></a></div>
+
+<ul class="mobile-menu mobile-menu-main search-enabled" id="mobile-menu--main-menu">
+  
+    <li>
+      <a class="mobile-menu-link mobile-menu-link__text" href="/collections/all">Shop by age</a>
+      
+        <a href="#" class="mobile-menu-sub mobile-menu-right mobile-menu-link" data-link="0">
+          <i data-feather="chevron-right"></i>
+        </a>
+      
+    </li>
+  
+    <li>
+      <a class="mobile-menu-link mobile-menu-link__text" href="/collections/all">Shop by Milestone</a>
+      
+        <a href="#" class="mobile-menu-sub mobile-menu-right mobile-menu-link" data-link="1">
+          <i data-feather="chevron-right"></i>
+        </a>
+      
+    </li>
+  
+    <li>
+      <a class="mobile-menu-link mobile-menu-link__text" href="/pages/our-app">Used Toys</a>
+      
+    </li>
+  
+    <li>
+      <a class="mobile-menu-link mobile-menu-link__text" href="/pages/our-story">Our Story</a>
+      
+    </li>
+  
+    <li>
+      <a class="mobile-menu-link mobile-menu-link__text" href="/pages/space-puppies">Space Puppies</a>
+      
+        <a href="#" class="mobile-menu-sub mobile-menu-right mobile-menu-link" data-link="4">
+          <i data-feather="chevron-right"></i>
+        </a>
+      
+    </li>
+  
+
+  
+
+  
+    
+      <li class="mobile-menu-link mobile-customer-link"><a href="/account/login" id="customer_login_link">Log in</a></li>
+      
+        <li class="mobile-menu-link mobile-customer-link"><a href="/account/register" id="customer_register_link">Create Account</a></li>
+      
+    
+  
+
+  
+
+  
+    <li>
+      <a href="#" class="mobile-menu-link mobile-menu-sub mobile-menu-link-currency" data-link="mobile-menu-currency">Currency</a>
+      <a href="#" class="mobile-menu-sub mobile-menu-right mobile-menu-link" data-link="mobile-menu-currency">
+        <i data-feather="chevron-right"></i>
+      </a>
+    </li>
+  
+
+  
+
+<ul class="sm-icons" class="clearfix">
+
+	
+		<li class="sm-facebook">
+			<a href="https://www.facebook.com/ToyAround.io" target="_blank">
+				<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Facebook icon</title><path d="M22.676 0H1.324C.593 0 0 .593 0 1.324v21.352C0 23.408.593 24 1.324 24h11.494v-9.294H9.689v-3.621h3.129V8.41c0-3.099 1.894-4.785 4.659-4.785 1.325 0 2.464.097 2.796.141v3.24h-1.921c-1.5 0-1.792.721-1.792 1.771v2.311h3.584l-.465 3.63H16.56V24h6.115c.733 0 1.325-.592 1.325-1.324V1.324C24 .593 23.408 0 22.676 0"/></svg>
+			</a>
+		</li>
+	
+
+	
+
+	
+		<li class="sm-instagram">
+			<a href="https://www.instagram.com/toyaroundapp/?hl=en" target="_blank">
+				<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram icon</title><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg>
+			</a>
+		</li>
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+</ul>
+
+
+
+</ul><form method="post" action="/localization" id="localization_form" accept-charset="UTF-8" class="localization-selector-form" enctype="multipart/form-data"><input type="hidden" name="form_type" value="localization" /><input type="hidden" name="utf8" value="✓" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="return_to" value="/pages/our-app" />
+
+  
+    <ul class="mobile-menu mobile-menu-child mobile-menu-hidden" id="mobile-menu-currency">
+      <li>
+        <a href="#" class="mobile-menu-back mobile-menu-link" data-link="mobile-menu--">
+          <i data-feather="chevron-left" aria-hidden="true"></i>
+          <div class="mobile-menu-title">Currency</div>
+        </a>
+      </li>
+      
+        <li>
+          <button type="submit" name="currency_code" class="mobile-menu-link mobile-menu-currency-link mobile-menu-currency-selected" value="SGD">
+            SGD $<i data-feather="check" aria-hidden="true"></i></button>
+        </li>
+      
+    </ul>
+  
+</form><ul class="mobile-menu mobile-menu-child mobile-menu-hidden" id="mobile-menu">
+    <li aria-haspopup="true">
+        <a href="#" class="mobile-menu-back mobile-menu-link">
+            <i data-feather="chevron-left" aria-hidden="true"></i>
+            <div class="mobile-menu-title"></div>
+        </a>
+    </li>
+</ul>
+
+<ul class="mobile-menu mobile-menu-grandchild mobile-menu-hidden" id="mobile-submenu">
+    <li aria-haspopup="true">
+        <a href="#" class="mobile-menu-back mobile-menu-link">
+            <i data-feather="chevron-left" aria-hidden="true"></i>
+            <div class="mobile-menu-title"></div>
+        </a>
+    </li>
+</ul>
+
+</nav>
+
+<div class="d-flex d-lg-none">
+  <div class="mobile-header--wrapper">
+		<div class="mobile-side-column mobile-header-wrap--icons">
+			<a href="#theme-menu" class="slide-menu slide-menu-mobile">
+        <i id="iconAnim" data-feather="menu"></i>
+			</a>
+		</div>
+
+		<div class="mobile-logo-column mobile-header-wrap--icons">
+			
+
+<div class="site-header__logo h1 logo-placement--within" id="site-title" itemscope itemtype="http://schema.org/Organization">
+
+  
+
+  
+	
+		<a href="/" itemprop="url" class="site-header__logo-image">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+<noscript aria-hidden="true">
+    <img
+        class=""
+        src="//cdn.shopify.com/s/files/1/0469/9589/8529/files/96dcc4_9efb29cd3b2b4ea498839ceac79595d3mv2_1000x1000.png?v=1614348857"
+        data-sizes="auto"
+        
+            alt="Toy Around"
+        
+        itemprop="logo"
+    />
+</noscript>
+
+<img
+    class="lazyload  "
+    src="//cdn.shopify.com/s/files/1/0469/9589/8529/files/96dcc4_9efb29cd3b2b4ea498839ceac79595d3mv2_150x.png?v=1614348857"
+    data-src="//cdn.shopify.com/s/files/1/0469/9589/8529/files/96dcc4_9efb29cd3b2b4ea498839ceac79595d3mv2_{width}x.png?v=1614348857"
+    data-sizes="auto"
+    data-aspectratio="1.5"
+    
+    
+        alt="Toy Around"
+    
+    itemprop="logo"
+/>
+
+
+
+		</a>
+
+  
+  
+</div>
+
+		</div>
+
+		<div class="mobile-side-column mobile-header-wrap--icons mobile-header-right">
+      
+      <a href="/search" class="icons--inline search-show" title="Search">
+        <i data-feather="search"></i>
+      </a>
+      
+			<a href="/cart" class="slide-menu slide-menu-cart">
+				<i data-feather="shopping-bag"></i>
+			</a>
+		</div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div id="top-search-wrapper">
+	<div class="top-search">
+		<form id="search-page-form" action="/search">
+      <input type="hidden" name="type" value="product," />
+			<div id="search-wrapper">
+        <div class="search_bar--controls">
+          <button id="search_submit" type="submit">
+            <i data-feather="search"></i>
+          </button>
+        </div>
+
+				<input
+          id="search_text"
+          name="q"
+          type="text"
+          size="20"
+          placeholder="Search..."
+          autocomplete="off"
+          autocorrect="off"
+          spellcheck="false"
+          class="is-predictive"
+          data-search-types="product,"
+          data-show-prices="false"
+          data-show-vendor="false"
+        />
+
+        <div class="search-clear" tabindex="0" aria-label="Close search bar">
+          <i data-feather="x"></i>
+        </div>
+			</div>
+		</form>
+	</div>
+  
+  <div class="predictive-loading hide">
+    <i class="fa fa-circle-o-notch fa-spin fa-2x fa-fw js"></i><span class="sr-only">Loading...</span>
+  </div>
+  <div class="search-summary"></div>
+  <div class="search-results-panel"></div>
+  
+</div>
+
+
+<header id="site-header" class="clearfix d-none d-lg-block
+
+">
+  <div>
+
+    
+
+            <div class="header-content logo-placement-within-wrapper">
+
+              <div class="logo-placement-within-wrapper__item">
+                
+  
+    <div class="localization-selectors--left">
+      
+  <form method="post" action="/localization" id="localization_form" accept-charset="UTF-8" class="localization-selector-form" enctype="multipart/form-data"><input type="hidden" name="form_type" value="localization" /><input type="hidden" name="utf8" value="✓" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="return_to" value="/pages/our-app" /></form>
+
+    </div>
+  
+
+              </div>
+
+              <div class="logo-placement-within-wrapper__item">
+                  
+
+<div class="site-header__logo h1 logo-placement--within" id="site-title" itemscope itemtype="http://schema.org/Organization">
+
+  
+
+  
+	
+		<a href="/" itemprop="url" class="site-header__logo-image">
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+<noscript aria-hidden="true">
+    <img
+        class=""
+        src="//cdn.shopify.com/s/files/1/0469/9589/8529/files/96dcc4_9efb29cd3b2b4ea498839ceac79595d3mv2_1000x1000.png?v=1614348857"
+        data-sizes="auto"
+        
+            alt="Toy Around"
+        
+        itemprop="logo"
+    />
+</noscript>
+
+<img
+    class="lazyload  "
+    src="//cdn.shopify.com/s/files/1/0469/9589/8529/files/96dcc4_9efb29cd3b2b4ea498839ceac79595d3mv2_150x.png?v=1614348857"
+    data-src="//cdn.shopify.com/s/files/1/0469/9589/8529/files/96dcc4_9efb29cd3b2b4ea498839ceac79595d3mv2_{width}x.png?v=1614348857"
+    data-sizes="auto"
+    data-aspectratio="1.5"
+    
+    
+        alt="Toy Around"
+    
+    itemprop="logo"
+/>
+
+
+
+		</a>
+
+  
+  
+</div>
+
+              </div>
+
+              <div class="logo-placement-within-wrapper__item">
+                  
+    <div class="main-icons-with-locale">
+        
+    <div class="header-icons cart-link">
+        <ul>
+            
+                <li>
+                    <a href="/search" class="icons--inline search-show" title="Search" tabindex="0">
+                        <i data-feather="search"></i>
+                        
+                    </a>
+                </li>
+            
+
+            
+                
+                    <li>
+                        <a href="/account/login" class="icons--inline" title="Log in">
+                            <i data-feather="user"></i>
+                            
+                        </a>
+                    </li>
+                
+            
+            <li>
+                <a href="/cart" class="icons--inline slide-menu slide-menu-cart" title="Cart">
+                    <i data-feather="shopping-bag"></i>
+                    
+                        
+                                <span class="header--supporting-text"><span class="cart-item-count-header cart-item-count-header--quantity">0</span></span>
+                            
+                    
+                </a>
+            </li>
+        </ul>
+    </div>
+
+        
+  
+
+    </div>
+
+              </div>
+
+          </div>
+
+      
+
+      
+
+  	</div>
+  </div>
+	</header>
+
+  <div class="header-menu-wrapper d-none d-lg-block">
+    
+      <div class="main-navigation-wrapper-main">
+        <div id="main-navigation-wrapper" class="main-navigation-wrapper mega-menu-wrapper">
+          <ul class="nav nav-pills">
+  
+    
+      
+
+      
+      
+
+      <li class="dropdown" aria-haspopup="true">
+        <div class="mega-menu--dropdown-wrapper">
+        <a class="dropdown-envy-toggle" data-delay="200" href="/collections/all">
+          <span class="nav-label">Shop by age</span>
+          <i data-feather="chevron-down"></i>
+        </a>
+
+        <ul class="dropdown-menu dropdown-menu--standard">
+          
+
+            
+              
+                <li>
+                  <a class="dropdown-submenu__link" href="/collections/0-3-months">0-3 months</a>
+                </li>
+              
+            
+              
+                <li>
+                  <a class="dropdown-submenu__link" href="/collections/3-6-months">3-6 months</a>
+                </li>
+              
+            
+              
+                <li>
+                  <a class="dropdown-submenu__link" href="/collections/6-9-months">6-9 months</a>
+                </li>
+              
+            
+              
+                <li>
+                  <a class="dropdown-submenu__link" href="/collections/9-12-months">9-12 months</a>
+                </li>
+              
+            
+              
+                <li>
+                  <a class="dropdown-submenu__link" href="/collections/12-18-months">12-18 months</a>
+                </li>
+              
+            
+              
+                <li>
+                  <a class="dropdown-submenu__link" href="/collections/18-24-months-1">18-24 months</a>
+                </li>
+              
+            
+              
+                <li>
+                  <a class="dropdown-submenu__link" href="/collections/2-3-years-old">2-3 years </a>
+                </li>
+              
+            
+              
+                <li>
+                  <a class="dropdown-submenu__link" href="/collections/3-4-years">3-4 years</a>
+                </li>
+              
+            
+
+          
+        </ul>
+
+        </div>
+
+      </li>
+
+    
+
+  
+    
+      
+
+      
+      
+
+      <li class="dropdown mega-menu" aria-haspopup="true">
+        <div class="mega-menu--dropdown-wrapper">
+        <a class="dropdown-envy-toggle" data-delay="200" href="/collections/all">
+          <span class="nav-label">Shop by Milestone</span>
+          <i data-feather="chevron-down"></i>
+        </a>
+
+        <ul class="dropdown-menu dropdown-menu--mega">
+          
+
+            <div>
+
+              
+
+              <div class="mega-menu-block" data-mega-menu-block-id="d309e46b-5fcf-4837-bfc6-12b04957a3c0" >
+                
+                
+                
+                
+
+                
+
+                
+                
+                  
+                  <li class="dropdown-submenu five_columns" aria-haspopup="true">
+                    <div class="inner">
+                      <p class="h4"><a href="/collections/fine-motor-skills">Fine Motor Skills</a></p>
+                      <ul class="dropdown-submenu__linklist">
+                        
+                      </ul>
+                    </div>
+                  </li>
+                
+                  
+                  <li class="dropdown-submenu five_columns" aria-haspopup="true">
+                    <div class="inner">
+                      <p class="h4"><a href="/collections/gross-motor-skills">Gross Motor Skills</a></p>
+                      <ul class="dropdown-submenu__linklist">
+                        
+                      </ul>
+                    </div>
+                  </li>
+                
+                  
+                  <li class="dropdown-submenu five_columns" aria-haspopup="true">
+                    <div class="inner">
+                      <p class="h4"><a href="/collections/cognitive">Cognitive Skills</a></p>
+                      <ul class="dropdown-submenu__linklist">
+                        
+                      </ul>
+                    </div>
+                  </li>
+                
+                  
+                  <li class="dropdown-submenu five_columns" aria-haspopup="true">
+                    <div class="inner">
+                      <p class="h4"><a href="/collections/language-speech">Language/ Speech</a></p>
+                      <ul class="dropdown-submenu__linklist">
+                        
+                      </ul>
+                    </div>
+                  </li>
+                
+                  
+                  <li class="dropdown-submenu five_columns" aria-haspopup="true">
+                    <div class="inner">
+                      <p class="h4"><a href="/collections/social-emotional">Social / Emotional</a></p>
+                      <ul class="dropdown-submenu__linklist">
+                        
+                      </ul>
+                    </div>
+                  </li>
+                
+
+                
+
+                
+
+              </div>
+
+            </div>
+
+          
+        </ul>
+
+        </div>
+
+      </li>
+
+    
+
+  
+    
+
+      <li class="site-nav--active">
+        <a href="/pages/our-app">Used Toys</a>
+      </li>
+
+    
+
+  
+    
+
+      <li >
+        <a href="/pages/our-story">Our Story</a>
+      </li>
+
+    
+
+  
+    
+      
+
+      
+      
+
+      <li class="dropdown" aria-haspopup="true">
+        <div class="mega-menu--dropdown-wrapper">
+        <a class="dropdown-envy-toggle" data-delay="200" href="/pages/space-puppies">
+          <span class="nav-label">Space Puppies</span>
+          <i data-feather="chevron-down"></i>
+        </a>
+
+        <ul class="dropdown-menu dropdown-menu--standard">
+          
+
+            
+              
+                <li>
+                  <a class="dropdown-submenu__link" href="/collections/space-puppies">Card Game</a>
+                </li>
+              
+            
+
+          
+        </ul>
+
+        </div>
+
+      </li>
+
+    
+
+  
+</ul>
+
+        </div>
+      </div>
+    
+  </div>
+</div>
+
+
+
+
+</div>
+
+		<div id="main" role="main">
+
+			
+				<div class="container">
+			
+
+			<article id="our-app" class="page hentry">
+	<header>
+		<div class="title-bar custom-font">
+			<h1 class="main-heading">The Toy Around App</h1>
+		</div>
+	</header>
+	<section class="entry-content">
+		<meta charset="utf-8">
+<div></div>
+<div><span></span></div>
+<div><span></span></div>
+<div style="text-align: center;">Introducing the Toy Around App, an app that allows parents to buy and sell preloved toys. We encourage the swap, sale, or buy of preloved toys so we can be one step closer to a better cleaner environment for generations of children to come. </div>
+<div style="text-align: center;">
+<p><span style="font-weight: 400;">‘Toy overwhelm’ is a problem for kids, parents, and the planet.</span></p>
+<p><span style="font-weight: 400;">Too many toys at home can create domestic disorder and even confuse and adversely affect the developing psyche of children. In the long run, all those cluttersome toys end up in the trash.</span></p>
+</div>
+<div><img src="https://cdn.shopify.com/s/files/1/0469/9589/8529/files/The-Toy-Around-App_480x480.png?v=1602900772" alt="" style="display: block; margin-left: auto; margin-right: auto;"></div>
+<meta charset="utf-8"><meta charset="utf-8">
+<p style="text-align: center;">With almost half of the $80 billion industry ends up in landfill. With a quarter of toys being disposed of after only 6-8 months of use. We believe we can do better!</p>
+<p style="text-align: center;"><strong>Download the app today on iOS Appstore and Android Playstore</strong><b> </b>and join us on our quest to share the joy! <span style="font-weight: 400;">Spreading joy, toy by toy!</span></p>
+<p style="text-align: center;"> </p>
+<meta charset="utf-8">
+<p style="text-align: center;"><span style="font-weight: 400;">    <img src="https://cdn.shopify.com/s/files/1/0469/9589/8529/files/Toy_Around_iOS_App_Download_480x480.png?v=1604043584" alt="" width="174" height="60">        <img src="https://cdn.shopify.com/s/files/1/0469/9589/8529/files/Toy_Around_Android_App_Download_480x480.png?v=1604043625" alt="" width="207" height="61"></span></p>
+	</section>
+</article>
+
+
+			
+				</div>
+			
+
+		</div>
+
+		<div id="shopify-section-footer" class="shopify-section">
+
+<footer data-wetheme-section-type="footer" data-wetheme-section-id="footer">
+	<div class="container">
+		<div class="row footer-alignment--center">
+
+			
+			
+
+				
+<div class="col-md-3 col-sm-12 links-footer footer-block--wrapper">
+							<h3 class="type-subheading type-subheading--1">Shop by age</h3>
+							
+							<ul>
+								
+									<li  class="children">
+										<a href="/collections/0-3-months">0 - 3 months</a>
+									</li>
+								
+									<li  class="children">
+										<a href="/collections/3-6-months">3 - 6 months</a>
+									</li>
+								
+									<li  class="children">
+										<a href="/collections/6-9-months">6 - 9 months</a>
+									</li>
+								
+									<li  class="children">
+										<a href="/collections/9-12-months">9 - 12 months</a>
+									</li>
+								
+									<li  class="children">
+										<a href="/collections/12-18-months">12 - 18 months</a>
+									</li>
+								
+									<li  class="children">
+										<a href="/collections/18-24-months-1">18 - 24 months</a>
+									</li>
+								
+									<li  class="children">
+										<a href="/collections/2-3-years-old">2 - 3 years</a>
+									</li>
+								
+									<li  class="children">
+										<a href="/collections/3-4-years">3 - 4 years</a>
+									</li>
+								
+							</ul>
+							
+						</div>
+
+					
+
+			
+			
+
+				
+<div class="col-md-3 col-sm-12 links-footer footer-block--wrapper">
+							<h3 class="type-subheading type-subheading--1">Shop by Milestone</h3>
+							
+							<ul>
+								
+									<li  class="children">
+										<a href="/collections/fine-motor-skills">Fine Motor Skills</a>
+									</li>
+								
+									<li  class="children">
+										<a href="/collections/gross-motor-skills">Gross Motor Skills</a>
+									</li>
+								
+									<li  class="children">
+										<a href="/collections/cognitive">Cognitive Skills</a>
+									</li>
+								
+									<li  class="children">
+										<a href="/collections/language-speech">Language / Speech</a>
+									</li>
+								
+									<li  class="children">
+										<a href="/collections/social-emotional">Social / Emotional</a>
+									</li>
+								
+							</ul>
+							
+						</div>
+
+					
+
+			
+			
+
+				
+<div class="col-md-3 col-sm-12 links-footer footer-block--wrapper">
+							<h3 class="type-subheading type-subheading--1">Helpful links</h3>
+							
+							<ul>
+								
+									<li >
+										<a href="/pages/contact-us">Contact Us</a>
+									</li>
+								
+									<li >
+										<a href="/policies/shipping-policy">Shipping</a>
+									</li>
+								
+									<li >
+										<a href="/policies/refund-policy">Refunds</a>
+									</li>
+								
+									<li >
+										<a href="/policies/privacy-policy">Privacy Policy</a>
+									</li>
+								
+									<li >
+										<a href="/policies/terms-of-service">Terms of Service</a>
+									</li>
+								
+							</ul>
+							
+						</div>
+
+					
+
+			
+			
+
+				
+
+						<div class="col-md-3 col-sm-12 footer-block--wrapper">
+							<h3 class="type-subheading type-subheading--1">connect</h3>
+							<div class="footer__social-icons">
+								
+
+<ul class="sm-icons" class="clearfix">
+
+	
+		<li class="sm-facebook">
+			<a href="https://www.facebook.com/ToyAround.io" target="_blank">
+				<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Facebook icon</title><path d="M22.676 0H1.324C.593 0 0 .593 0 1.324v21.352C0 23.408.593 24 1.324 24h11.494v-9.294H9.689v-3.621h3.129V8.41c0-3.099 1.894-4.785 4.659-4.785 1.325 0 2.464.097 2.796.141v3.24h-1.921c-1.5 0-1.792.721-1.792 1.771v2.311h3.584l-.465 3.63H16.56V24h6.115c.733 0 1.325-.592 1.325-1.324V1.324C24 .593 23.408 0 22.676 0"/></svg>
+			</a>
+		</li>
+	
+
+	
+
+	
+		<li class="sm-instagram">
+			<a href="https://www.instagram.com/toyaroundapp/?hl=en" target="_blank">
+				<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram icon</title><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg>
+			</a>
+		</li>
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+</ul>
+
+
+
+							</div>
+						</div>
+
+						
+
+			
+
+		</div>
+	</div>
+
+	<div class="bottom-footer">
+		<div class="container">
+			<div class="bottom-footer-row">
+                <div>
+                    <div class="footer-localization-selectors">
+                        <form method="post" action="/localization" id="localization_form" accept-charset="UTF-8" class="localization-selector-form" enctype="multipart/form-data"><input type="hidden" name="form_type" value="localization" /><input type="hidden" name="utf8" value="✓" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="return_to" value="/pages/our-app" /></form>
+                    </div>
+
+                    
+                        
+                            <ul id="footer-payment-methods" class="inline-list payment-icons">
+                                
+                                    <li><svg class="payment-icon" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 38 24" width="38" height="24" aria-labelledby="pi-american_express"><title id="pi-american_express">American Express</title><g fill="none"><path fill="#000" d="M35,0 L3,0 C1.3,0 0,1.3 0,3 L0,21 C0,22.7 1.4,24 3,24 L35,24 C36.7,24 38,22.7 38,21 L38,3 C38,1.3 36.6,0 35,0 Z" opacity=".07"/><path fill="#006FCF" d="M35,1 C36.1,1 37,1.9 37,3 L37,21 C37,22.1 36.1,23 35,23 L3,23 C1.9,23 1,22.1 1,21 L1,3 C1,1.9 1.9,1 3,1 L35,1"/><path fill="#FFF" d="M8.971,10.268 L9.745,12.144 L8.203,12.144 L8.971,10.268 Z M25.046,10.346 L22.069,10.346 L22.069,11.173 L24.998,11.173 L24.998,12.412 L22.075,12.412 L22.075,13.334 L25.052,13.334 L25.052,14.073 L27.129,11.828 L25.052,9.488 L25.046,10.346 L25.046,10.346 Z M10.983,8.006 L14.978,8.006 L15.865,9.941 L16.687,8 L27.057,8 L28.135,9.19 L29.25,8 L34.013,8 L30.494,11.852 L33.977,15.68 L29.143,15.68 L28.065,14.49 L26.94,15.68 L10.03,15.68 L9.536,14.49 L8.406,14.49 L7.911,15.68 L4,15.68 L7.286,8 L10.716,8 L10.983,8.006 Z M19.646,9.084 L17.407,9.084 L15.907,12.62 L14.282,9.084 L12.06,9.084 L12.06,13.894 L10,9.084 L8.007,9.084 L5.625,14.596 L7.18,14.596 L7.674,13.406 L10.27,13.406 L10.764,14.596 L13.484,14.596 L13.484,10.661 L15.235,14.602 L16.425,14.602 L18.165,10.673 L18.165,14.603 L19.623,14.603 L19.647,9.083 L19.646,9.084 Z M28.986,11.852 L31.517,9.084 L29.695,9.084 L28.094,10.81 L26.546,9.084 L20.652,9.084 L20.652,14.602 L26.462,14.602 L28.076,12.864 L29.624,14.602 L31.499,14.602 L28.987,11.852 L28.986,11.852 Z"/></g></svg>
+</li>
+                                
+                                    <li><svg class="payment-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" role="img" x="0" y="0" width="38" height="24" viewBox="0 0 165.521 105.965" xml:space="preserve" aria-labelledby="pi-apple_pay"><title id="pi-apple_pay">Apple Pay</title><path fill="#000" d="M150.698 0H14.823c-.566 0-1.133 0-1.698.003-.477.004-.953.009-1.43.022-1.039.028-2.087.09-3.113.274a10.51 10.51 0 0 0-2.958.975 9.932 9.932 0 0 0-4.35 4.35 10.463 10.463 0 0 0-.975 2.96C.113 9.611.052 10.658.024 11.696a70.22 70.22 0 0 0-.022 1.43C0 13.69 0 14.256 0 14.823v76.318c0 .567 0 1.132.002 1.699.003.476.009.953.022 1.43.028 1.036.09 2.084.275 3.11a10.46 10.46 0 0 0 .974 2.96 9.897 9.897 0 0 0 1.83 2.52 9.874 9.874 0 0 0 2.52 1.83c.947.483 1.917.79 2.96.977 1.025.183 2.073.245 3.112.273.477.011.953.017 1.43.02.565.004 1.132.004 1.698.004h135.875c.565 0 1.132 0 1.697-.004.476-.002.952-.009 1.431-.02 1.037-.028 2.085-.09 3.113-.273a10.478 10.478 0 0 0 2.958-.977 9.955 9.955 0 0 0 4.35-4.35c.483-.947.789-1.917.974-2.96.186-1.026.246-2.074.274-3.11.013-.477.02-.954.022-1.43.004-.567.004-1.132.004-1.699V14.824c0-.567 0-1.133-.004-1.699a63.067 63.067 0 0 0-.022-1.429c-.028-1.038-.088-2.085-.274-3.112a10.4 10.4 0 0 0-.974-2.96 9.94 9.94 0 0 0-4.35-4.35A10.52 10.52 0 0 0 156.939.3c-1.028-.185-2.076-.246-3.113-.274a71.417 71.417 0 0 0-1.431-.022C151.83 0 151.263 0 150.698 0z" /><path fill="#FFF" d="M150.698 3.532l1.672.003c.452.003.905.008 1.36.02.793.022 1.719.065 2.583.22.75.135 1.38.34 1.984.648a6.392 6.392 0 0 1 2.804 2.807c.306.6.51 1.226.645 1.983.154.854.197 1.783.218 2.58.013.45.019.9.02 1.36.005.557.005 1.113.005 1.671v76.318c0 .558 0 1.114-.004 1.682-.002.45-.008.9-.02 1.35-.022.796-.065 1.725-.221 2.589a6.855 6.855 0 0 1-.645 1.975 6.397 6.397 0 0 1-2.808 2.807c-.6.306-1.228.511-1.971.645-.881.157-1.847.2-2.574.22-.457.01-.912.017-1.379.019-.555.004-1.113.004-1.669.004H14.801c-.55 0-1.1 0-1.66-.004a74.993 74.993 0 0 1-1.35-.018c-.744-.02-1.71-.064-2.584-.22a6.938 6.938 0 0 1-1.986-.65 6.337 6.337 0 0 1-1.622-1.18 6.355 6.355 0 0 1-1.178-1.623 6.935 6.935 0 0 1-.646-1.985c-.156-.863-.2-1.788-.22-2.578a66.088 66.088 0 0 1-.02-1.355l-.003-1.327V14.474l.002-1.325a66.7 66.7 0 0 1 .02-1.357c.022-.792.065-1.717.222-2.587a6.924 6.924 0 0 1 .646-1.981c.304-.598.7-1.144 1.18-1.623a6.386 6.386 0 0 1 1.624-1.18 6.96 6.96 0 0 1 1.98-.646c.865-.155 1.792-.198 2.586-.22.452-.012.905-.017 1.354-.02l1.677-.003h135.875" /><g><g><path fill="#000" d="M43.508 35.77c1.404-1.755 2.356-4.112 2.105-6.52-2.054.102-4.56 1.355-6.012 3.112-1.303 1.504-2.456 3.959-2.156 6.266 2.306.2 4.61-1.152 6.063-2.858" /><path fill="#000" d="M45.587 39.079c-3.35-.2-6.196 1.9-7.795 1.9-1.6 0-4.049-1.8-6.698-1.751-3.447.05-6.645 2-8.395 5.1-3.598 6.2-.95 15.4 2.55 20.45 1.699 2.5 3.747 5.25 6.445 5.151 2.55-.1 3.549-1.65 6.647-1.65 3.097 0 3.997 1.65 6.696 1.6 2.798-.05 4.548-2.5 6.247-5 1.95-2.85 2.747-5.6 2.797-5.75-.05-.05-5.396-2.101-5.446-8.251-.05-5.15 4.198-7.6 4.398-7.751-2.399-3.548-6.147-3.948-7.447-4.048" /></g><g><path fill="#000" d="M78.973 32.11c7.278 0 12.347 5.017 12.347 12.321 0 7.33-5.173 12.373-12.529 12.373h-8.058V69.62h-5.822V32.11h14.062zm-8.24 19.807h6.68c5.07 0 7.954-2.729 7.954-7.46 0-4.73-2.885-7.434-7.928-7.434h-6.706v14.894z" /><path fill="#000" d="M92.764 61.847c0-4.809 3.665-7.564 10.423-7.98l7.252-.442v-2.08c0-3.04-2.001-4.704-5.562-4.704-2.938 0-5.07 1.507-5.51 3.82h-5.252c.157-4.86 4.731-8.395 10.918-8.395 6.654 0 10.995 3.483 10.995 8.89v18.663h-5.38v-4.497h-.13c-1.534 2.937-4.914 4.782-8.579 4.782-5.406 0-9.175-3.222-9.175-8.057zm17.675-2.417v-2.106l-6.472.416c-3.64.234-5.536 1.585-5.536 3.95 0 2.288 1.975 3.77 5.068 3.77 3.95 0 6.94-2.522 6.94-6.03z" /><path fill="#000" d="M120.975 79.652v-4.496c.364.051 1.247.103 1.715.103 2.573 0 4.029-1.09 4.913-3.899l.52-1.663-9.852-27.293h6.082l6.863 22.146h.13l6.862-22.146h5.927l-10.216 28.67c-2.34 6.577-5.017 8.735-10.683 8.735-.442 0-1.872-.052-2.261-.157z" /></g></g></svg>
+</li>
+                                
+                                    <li><svg class="payment-icon" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 38 24" width="38" height="24" aria-labelledby="pi-google_pay"><title id="pi-google_pay">Google Pay</title><path d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z" fill="#000" opacity=".07"/><path d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32" fill="#FFF"/><path d="M18.093 11.976v3.2h-1.018v-7.9h2.691a2.447 2.447 0 0 1 1.747.692 2.28 2.28 0 0 1 .11 3.224l-.11.116c-.47.447-1.098.69-1.747.674l-1.673-.006zm0-3.732v2.788h1.698c.377.012.741-.135 1.005-.404a1.391 1.391 0 0 0-1.005-2.354l-1.698-.03zm6.484 1.348c.65-.03 1.286.188 1.778.613.445.43.682 1.03.65 1.649v3.334h-.969v-.766h-.049a1.93 1.93 0 0 1-1.673.931 2.17 2.17 0 0 1-1.496-.533 1.667 1.667 0 0 1-.613-1.324 1.606 1.606 0 0 1 .613-1.336 2.746 2.746 0 0 1 1.698-.515c.517-.02 1.03.093 1.49.331v-.208a1.134 1.134 0 0 0-.417-.901 1.416 1.416 0 0 0-.98-.368 1.545 1.545 0 0 0-1.319.717l-.895-.564a2.488 2.488 0 0 1 2.182-1.06zM23.29 13.52a.79.79 0 0 0 .337.662c.223.176.5.269.785.263.429-.001.84-.17 1.146-.472.305-.286.478-.685.478-1.103a2.047 2.047 0 0 0-1.324-.374 1.716 1.716 0 0 0-1.03.294.883.883 0 0 0-.392.73zm9.286-3.75l-3.39 7.79h-1.048l1.281-2.728-2.224-5.062h1.103l1.612 3.885 1.569-3.885h1.097z" fill="#5F6368"/><path d="M13.986 11.284c0-.308-.024-.616-.073-.92h-4.29v1.747h2.451a2.096 2.096 0 0 1-.9 1.373v1.134h1.464a4.433 4.433 0 0 0 1.348-3.334z" fill="#4285F4"/><path d="M9.629 15.721a4.352 4.352 0 0 0 3.01-1.097l-1.466-1.14a2.752 2.752 0 0 1-4.094-1.44H5.577v1.17a4.53 4.53 0 0 0 4.052 2.507z" fill="#34A853"/><path d="M7.079 12.05a2.709 2.709 0 0 1 0-1.735v-1.17H5.577a4.505 4.505 0 0 0 0 4.075l1.502-1.17z" fill="#FBBC04"/><path d="M9.629 8.44a2.452 2.452 0 0 1 1.74.68l1.3-1.293a4.37 4.37 0 0 0-3.065-1.183 4.53 4.53 0 0 0-4.027 2.5l1.502 1.171a2.715 2.715 0 0 1 2.55-1.875z" fill="#EA4335"/></svg>
+</li>
+                                
+                                    <li><svg class="payment-icon" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" aria-labelledby="pi-master"><title id="pi-master">Mastercard</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"/><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"/><circle fill="#EB001B" cx="15" cy="12" r="7"/><circle fill="#F79E1B" cx="23" cy="12" r="7"/><path fill="#FF5F00" d="M22 12c0-2.4-1.2-4.5-3-5.7-1.8 1.3-3 3.4-3 5.7s1.2 4.5 3 5.7c1.8-1.2 3-3.3 3-5.7z"/></svg></li>
+                                
+                                    <li><svg class="payment-icon" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 38 24" width="38" height="24" aria-labelledby="pi-shopify_pay"><title id="pi-shopify_pay">Shop Pay</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z" fill="#000"/><path d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32z" fill="#5A31F4"/><path d="M21.382 9.713c0 1.668-1.177 2.858-2.821 2.858h-1.549a.133.133 0 00-.12.08.127.127 0 00-.01.049v2.192a.129.129 0 01-.13.129h-1.084a.13.13 0 01-.13-.13V6.986a.127.127 0 01.08-.12.129.129 0 01.05-.01h2.9c1.637 0 2.814 1.19 2.814 2.858v-.001zm-1.352 0c0-.958-.658-1.658-1.55-1.658h-1.468a.13.13 0 00-.13.13v3.05a.127.127 0 00.038.092.129.129 0 00.092.038h1.468c.892.005 1.55-.695 1.55-1.652zm1.674 3.791a1.527 1.527 0 01.647-1.317c.423-.316 1.084-.48 2.055-.514l1.033-.036v-.303c0-.607-.41-.863-1.068-.863-.658 0-1.075.231-1.17.61a.127.127 0 01-.125.09h-1.022a.13.13 0 01-.126-.092.125.125 0 01-.004-.055c.152-.898.904-1.58 2.494-1.58 1.692 0 2.303.783 2.303 2.276v3.172a.13.13 0 01-.132.129h-1.03a.13.13 0 01-.13-.13v-.236a.096.096 0 00-.061-.091.1.1 0 00-.107.022c-.31.334-.808.575-1.607.575-1.175 0-1.95-.607-1.95-1.657zm3.735-.687v-.246l-1.339.07c-.705.036-1.115.326-1.115.816 0 .444.376.69 1.034.69.893 0 1.42-.48 1.42-1.33zm2.316 4.6v-.919a.13.13 0 01.049-.1.132.132 0 01.108-.027c.158.029.318.044.479.044a1.229 1.229 0 001.245-.876l.067-.211a.133.133 0 000-.088l-2.145-5.471a.13.13 0 01.06-.165.13.13 0 01.062-.015h1.04a.132.132 0 01.123.085l1.456 3.859a.131.131 0 00.125.088.133.133 0 00.125-.088l1.265-3.848a.13.13 0 01.126-.09h1.076a.134.134 0 01.132.116.134.134 0 01-.008.063l-2.295 6.076c-.528 1.413-1.433 1.773-2.43 1.773a1.959 1.959 0 01-.561-.066.132.132 0 01-.1-.14h.001zM8.57 6.4a5.363 5.363 0 00-3.683 1.427.231.231 0 00-.029.31l.618.839a.236.236 0 00.362.028 3.823 3.823 0 012.738-1.11c2.12 0 3.227 1.584 3.227 3.15 0 1.7-1.163 2.898-2.835 2.921-1.292 0-2.266-.85-2.266-1.974a1.908 1.908 0 01.713-1.48.231.231 0 00.033-.324l-.65-.815a.236.236 0 00-.339-.034 3.43 3.43 0 00-.942 1.183 3.39 3.39 0 00-.337 1.47c0 1.935 1.655 3.452 3.775 3.464h.03c2.517-.032 4.337-1.884 4.337-4.415 0-2.247-1.667-4.64-4.752-4.64z" fill="#fff"/></svg></li>
+                                
+                                    <li><svg class="payment-icon" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" aria-labelledby="pi-visa"><title id="pi-visa">Visa</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"/><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"/><path d="M28.3 10.1H28c-.4 1-.7 1.5-1 3h1.9c-.3-1.5-.3-2.2-.6-3zm2.9 5.9h-1.7c-.1 0-.1 0-.2-.1l-.2-.9-.1-.2h-2.4c-.1 0-.2 0-.2.2l-.3.9c0 .1-.1.1-.1.1h-2.1l.2-.5L27 8.7c0-.5.3-.7.8-.7h1.5c.1 0 .2 0 .2.2l1.4 6.5c.1.4.2.7.2 1.1.1.1.1.1.1.2zm-13.4-.3l.4-1.8c.1 0 .2.1.2.1.7.3 1.4.5 2.1.4.2 0 .5-.1.7-.2.5-.2.5-.7.1-1.1-.2-.2-.5-.3-.8-.5-.4-.2-.8-.4-1.1-.7-1.2-1-.8-2.4-.1-3.1.6-.4.9-.8 1.7-.8 1.2 0 2.5 0 3.1.2h.1c-.1.6-.2 1.1-.4 1.7-.5-.2-1-.4-1.5-.4-.3 0-.6 0-.9.1-.2 0-.3.1-.4.2-.2.2-.2.5 0 .7l.5.4c.4.2.8.4 1.1.6.5.3 1 .8 1.1 1.4.2.9-.1 1.7-.9 2.3-.5.4-.7.6-1.4.6-1.4 0-2.5.1-3.4-.2-.1.2-.1.2-.2.1zm-3.5.3c.1-.7.1-.7.2-1 .5-2.2 1-4.5 1.4-6.7.1-.2.1-.3.3-.3H18c-.2 1.2-.4 2.1-.7 3.2-.3 1.5-.6 3-1 4.5 0 .2-.1.2-.3.2M5 8.2c0-.1.2-.2.3-.2h3.4c.5 0 .9.3 1 .8l.9 4.4c0 .1 0 .1.1.2 0-.1.1-.1.1-.1l2.1-5.1c-.1-.1 0-.2.1-.2h2.1c0 .1 0 .1-.1.2l-3.1 7.3c-.1.2-.1.3-.2.4-.1.1-.3 0-.5 0H9.7c-.1 0-.2 0-.2-.2L7.9 9.5c-.2-.2-.5-.5-.9-.6-.6-.3-1.7-.5-1.9-.5L5 8.2z" fill="#142688"/></svg></li>
+                                
+                            </ul>
+                        
+                    
+                </div>
+
+                <div class="copyright">
+                    <p>
+                        <a href="/">&copy; 2023 Toy Around</a> | <a target="_blank" rel="nofollow" href="https://www.shopify.com?utm_campaign=poweredby&amp;utm_medium=shopify&amp;utm_source=onlinestore">Powered by Shopify</a>
+                    </p>
+               </div>
+			</div>
+		</div>
+	</div>
+
+</footer>
+
+
+</div>
+	</div>
+
+	
+
+<style>
+
+.verification-popup-logo__image img {
+  max-width: 50px;
+}
+
+ @media screen and (min-width: 992px) {
+  .verification-popup-logo__image img {
+    width: 50px;
+  }
+ }
+
+
+
+#prompt__background {
+  background-color: #333333;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+</style>
+	
+
+<style>
+
+
+
+
+
+
+
+
+
+.popup--image {
+  background-image: url('//cdn.shopify.com/shopifycloud/shopify/assets/no-image-2048-5e88c1b20e087fb7bbe9a3771824e743c244f437e4f8ba93bbf7b11b53f7824c_900x.gif.jpg');
+}
+
+
+  
+@media (min-width: 901px) and (max-width: 1200px) {
+  .popup--image {
+    background-image: url('//cdn.shopify.com/shopifycloud/shopify/assets/no-image-2048-5e88c1b20e087fb7bbe9a3771824e743c244f437e4f8ba93bbf7b11b53f7824c_1200x.gif.jpg');
+  }
+}
+  
+
+  
+@media (min-width: 1201px) and (max-width: 1500px) {
+  .popup--image {
+    background-image: url('//cdn.shopify.com/shopifycloud/shopify/assets/no-image-2048-5e88c1b20e087fb7bbe9a3771824e743c244f437e4f8ba93bbf7b11b53f7824c_1500x.gif.jpg');
+  }
+}
+  
+
+  
+@media (min-width: 1501px) and (max-width: 2000px) {
+  .popup--image {
+    background-image: url('//cdn.shopify.com/shopifycloud/shopify/assets/no-image-2048-5e88c1b20e087fb7bbe9a3771824e743c244f437e4f8ba93bbf7b11b53f7824c_2000x.gif.jpg');
+  }
+}
+  
+
+  
+@media (min-width: 2001px) {
+  .popup--image {
+    background-image: url('//cdn.shopify.com/shopifycloud/shopify/assets/no-image-2048-5e88c1b20e087fb7bbe9a3771824e743c244f437e4f8ba93bbf7b11b53f7824c_4000x.gif.jpg');
+  }
+}
+  
+
+
+</style>
+
+
+	<script type="application/json" id="wetheme-global">
+		{
+			
+			"translations": {
+				"addToCart": "Add to Cart",
+				"added": "Added",
+				"soldOut": "Sold Out",
+				"unavailable": "Unavailable",
+				"makeASelection": "Make a Selection",
+				"showMore": "translation missing: en.general.filters.show_more",
+				"showLess": "translation missing: en.general.filters.show_less",
+				"saving": "Saving",
+				"products": "Products",
+        "pages": "Pages",
+        "collections": "Collections",
+        "articles": "Articles",
+        "loading": "Loading...",
+        "no_results_html": "Your search for \"{{ terms }}\" did not yield any results.",
+        "view_all": "View all results",
+        "clear": "Clear"
+			},
+			"moneyFormat": "${{amount}}"
+		}
+	</script>
+
+<!-- PF EDT START -->
+<script type='text/javascript'></script>
+<!-- PF EDT END -->
+</body>
+
+</html>

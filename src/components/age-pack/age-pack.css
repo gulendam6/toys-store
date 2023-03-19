@@ -1,0 +1,31 @@
+.filter-btn {
+    border: 1px solid #F76e11;
+    padding: 7px 25px;
+    background: transparent;
+    margin-left: 15px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.age__title{
+    color:#F5B70A;
+}
+
+.active__btn {
+    background: #F76e11;
+    
+}
+
+
+@media only screen and (max-width:992px) {
+    
+    .menu__title {
+        font-size: 1.4rem;
+    }
+    
+    .filter-btn{
+        padding: 5px 20px;
+        font-size: 0.8rem;
+    }
+}
